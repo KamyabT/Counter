@@ -1,0 +1,78 @@
+$primaryColor: #ffff;
+$secondaryColor: #0000;
+$thirdColor: #cccc;
+$fourthColor: rgb(255, 235, 212);
+$fifthColor: rgba(2, 217, 255, 0.8);
+
+
+$fontWeight : (
+    "regular" : 400,
+    "bold" : 700,
+    "extraBold" : 900,
+);
+
+/*************************All*************************/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
+}
+
+html , body {
+    min-height: 100%;
+}
+
+
+/*************************Design*************************/
+
+body {
+    .headerDesign {
+        background-color: $fifthColor;
+        box-shadow: 0px 1px 5px 3px #cccc;
+        padding: 15px 15px;
+        .headerNavbarDesign {
+            display: flex;
+            justify-content: center;
+            .innerNavbarDivisionDesign {
+    
+            }
+        }
+    }
+    .mainDesign {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: calc(100vh - 62px);
+        .mainHeadingDesign {
+            font-size: 40px;
+        }
+        .counterWrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .counterNumber {
+                text-align: center;
+                margin: 20px 0;
+                font-size: 44px;
+            }
+            .counterNumberButtons {
+                margin: 20px 0;
+                .btn {
+                    padding: 5px 15px;
+                    font-size: 18px;
+                    // outline: none;
+                    border: 1px solid $secondaryColor;
+                    margin: 0px 5px 0 5px;
+                    &:hover {
+                        background-color: $fifthColor;
+                        border-radius: 10px;
+                        transition: 0.2s;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

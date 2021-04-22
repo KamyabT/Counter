@@ -1,0 +1,89 @@
+/*************************All*************************/
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+/*************************Design*************************/
+body .headerDesign {
+  background-color: rgba(2, 217, 255, 0.8);
+  -webkit-box-shadow: 0px 1px 5px 3px #cccc;
+          box-shadow: 0px 1px 5px 3px #cccc;
+  padding: 15px 15px;
+}
+
+body .headerDesign .headerNavbarDesign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .mainDesign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: calc(100vh - 62px);
+}
+
+body .mainDesign .mainHeadingDesign {
+  font-size: 40px;
+}
+
+body .mainDesign .counterWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .mainDesign .counterWrapper .counterNumber {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 44px;
+}
+
+body .mainDesign .counterWrapper .counterNumberButtons {
+  margin: 20px 0;
+}
+
+body .mainDesign .counterWrapper .counterNumberButtons .btn {
+  padding: 5px 15px;
+  font-size: 18px;
+  border: 1px solid #0000;
+  margin: 0px 5px 0 5px;
+}
+
+body .mainDesign .counterWrapper .counterNumberButtons .btn:hover {
+  background-color: rgba(2, 217, 255, 0.8);
+  border-radius: 10px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
